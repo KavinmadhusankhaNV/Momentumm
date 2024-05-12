@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#416D19</color>
     <color name="bgbox">#88BFEA7C</color>
+    <color name="nrfont">#AE416D19</color>
 </resources>
