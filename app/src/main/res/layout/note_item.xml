@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     app:cardCornerRadius="8dp"
     app:cardElevation="4dp"
     app:cardUseCompatPadding="true">
@@ -13,13 +13,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp">
-        
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="8dp">
-            
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
             <TextView
                 android:id="@+id/titleTextView"
                 android:layout_width="wrap_content"
@@ -31,14 +31,22 @@
 
             <ImageView
                 android:id="@+id/updateButton"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="30dp"
+                android:src="@drawable/baseline_mode_edit_outline_24"/>
+
+            <ImageView
+                android:id="@+id/deleteButton"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_alignParentEnd="true"
-                android:layout_marginEnd="30dp"
-                android:src="@drawable/baseline_mode_edit_outline_24" />
-            
+                android:src="@drawable/baseline_auto_delete_24"/>
+
+
         </RelativeLayout>
-        
+
         <TextView
             android:id="@+id/contentTextView"
             android:layout_width="wrap_content"
@@ -46,6 +54,8 @@
             android:text="Content"
             android:maxLines="3"
             android:layout_marginTop="4dp"/>
+
+
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>
