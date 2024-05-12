@@ -41,7 +41,7 @@
         android:maxLines="1"/>
 
     <EditText
-        android:id="@+id/updatecontentEditText"
+        android:id="@+id/updateContentEditText"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:hint="Enter the Description"
