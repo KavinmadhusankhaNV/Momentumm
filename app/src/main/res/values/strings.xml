@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Momentum</string>
+    <string name="task">Tasks...</string>
+    <string name="EnterTask">Enter the Task</string>
+    <string name="EnterDes">Enter the Description</string>
+    <string name="Addtask">Add Task.</string>
+    <string name="Title">Title</string>
+    <string name="searchTitle">Enter Search Title</string>
+    <string name="addButtonDescription">Add Task</string>
+
 </resources>
