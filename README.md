@@ -14,6 +14,6 @@ Priority Levels: Assign priority levels to tasks to focus on the most important 
 Offline Support: Full offline functionality using a local database for seamless data access.
 Technologies Used
 
-Development Platform: Android Studio
-Database: Local database for data storage
-Languages: Java, XML
+* Development Platform: Android Studio
+* Database: Local database for data storage
+* Languages: Java, XML
